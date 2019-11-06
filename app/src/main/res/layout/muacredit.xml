@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/textView_tennguoichoi_bangmua"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textView_tennguoichoi_ls"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_iconruby"
+        android:layout_width="24dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/todo7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_iconfinder_ruby_298863" />
+
+    <TextView
+        android:id="@+id/textView_socredit_bangmua"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textView_slcredit"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_iconruby"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/button_muacredit"
+        android:textAlignment="center"
+
+        android:textColor="#fff000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_300"
+        android:layout_width="155dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:drawableEnd="@drawable/ic_iconfinder_ruby_298863"
+        android:text="@string/button_300"
+        android:textSize="33sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/button_500"
+        android:layout_width="155dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:drawableEnd="@drawable/ic_iconfinder_ruby_298863"
+        android:text="@string/button_400"
+        android:textSize="33sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView_300"
+        android:layout_width="155dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/textView_300"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#fff000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_300" />
+
+    <TextView
+        android:id="@+id/textView500"
+        android:layout_width="155dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/textView_500"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#fff000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_500" />
+
+    <Button
+        android:id="@+id/button_700"
+        android:layout_width="155dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:drawableEnd="@drawable/ic_iconfinder_ruby_298863"
+        android:text="@string/button_700"
+        android:textAlignment="center"
+        android:textSize="33sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_300" />
+
+    <Button
+        android:id="@+id/button_900"
+        android:layout_width="155dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="32dp"
+        android:drawableEnd="@drawable/ic_iconfinder_ruby_298863"
+        android:text="@string/button_900"
+        android:textAlignment="center"
+        android:textSize="33sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView500" />
+
+    <TextView
+        android:id="@+id/textView_700"
+        android:layout_width="155dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/textView_700"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#fff000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_700" />
+
+    <TextView
+        android:id="@+id/textView_900"
+        android:layout_width="155dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/textView_900"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#fff000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_900" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
